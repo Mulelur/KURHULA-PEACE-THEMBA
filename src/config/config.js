@@ -1,3 +1,9 @@
+import CV from "../assets/cv/CV.docx";
+// import GroupAss from "../assets/GROUP6ASS.pdf";
+import Profile1 from "../assets/Profile1.jpeg";
+import Profile2 from "../assets/Profile2.jpeg";
+// import L from "../assets/";
+
 export const ProjectDetails = {
   projectName: "epo-e",
   projectVersion: "1.0.0.2",
@@ -33,7 +39,7 @@ export const homePage = {
   logoName: "KURHULA",
   intro: "I'm a future engineer",
   profile: {
-    url: "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    url: Profile1,
     desc: "Home profile picture",
   },
   quote:
@@ -49,10 +55,10 @@ export const homePage = {
 
 export const aboutPage = {
   intro:
-    "I AM A KRHULA PEACE THEMBA (A FUTURE ENGINEER). I AM A STUDENT AT VAAL UNIVERSITY OF TECHNOLOGY STUDYING ",
+    "I am a  krhula  peace themba (A FUTURE ENGINEER). I am a student at vaal university of technology studying.",
   names: "KURHULA PEACE THEMBA",
   profile: {
-    url: "https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    url: Profile2,
     desc: '"I am a future engineer"',
   },
   summary:
@@ -79,7 +85,7 @@ export const aboutPage = {
   links: [
     {
       title: "Download CV",
-      link: "",
+      link: CV,
     },
     {
       title: "Download Letter",
