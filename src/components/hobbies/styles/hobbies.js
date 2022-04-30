@@ -57,33 +57,7 @@ export const Content = styled.div`
   padding: 2.3rem;
   transition: all 0.5s;
 
-  @media (max-width: 1450px) {
-    &:nth-child(1) {
-      padding-bottom: 45rem !important;
-    }
-  }
-
-  @media (max-width: 1150px) {
-    &:nth-child(1) {
-      padding-bottom: 35rem !important;
-    }
-  }
-
-  @media (max-width: 856px) {
-    &:nth-child(1) {
-      padding-bottom: 20rem !important;
-    }
-  }
-
-  @media (max-width: 586px) {
-    &:nth-child(1) {
-      padding-bottom: 10rem !important;
-    }
-  }
-
-  &:nth-child(1) {
-    padding-bottom: 63rem;
-  }
+  padding-bottom: 5rem !important;
 `;
 
 export const Text = styled.p`
