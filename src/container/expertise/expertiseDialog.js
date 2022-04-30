@@ -5,8 +5,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import Slide from "@mui/material/Slide";
 import { Button, ClearButton } from "../../components/buttons";
 import { Expertise } from "../../components";
-import TimeIcon from "../../components/svg/Time";
-import SmTime from "../../components/svg/SMTime";
+import IMG from "../../assets/MM.jpeg";
 
 import Intros from "../Intros";
 
@@ -114,10 +113,10 @@ export default function ExpertiseDialog() {
                 <Expertise.Content>
                   <Expertise.Heading2>Management Matrix</Expertise.Heading2>
                   <Expertise.MML>
-                    <TimeIcon />
+                    <img src={IMG} />
                   </Expertise.MML>
                   <Expertise.MMS>
-                    <SmTime />
+                    <img src={IMG} />
                   </Expertise.MMS>
                 </Expertise.Content>
               </Expertise.Container>
