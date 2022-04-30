@@ -42,9 +42,11 @@ export const homePage = {
     url: Profile1,
     desc: "Home profile picture",
   },
+
   quote:
     "Productivity is never an accident. It’s always the result of a commitment to excellence, intelligent planning, and focused effort.",
-  text: "I am taking new projects. Waiting to hearing about new projects, so if you'd like to chat please get in touch.",
+  text: "",
+
   links: [
     {
       name: "linkedin",
