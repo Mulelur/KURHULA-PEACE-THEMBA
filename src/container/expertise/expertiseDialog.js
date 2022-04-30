@@ -121,7 +121,7 @@ export default function ExpertiseDialog() {
                 </Expertise.Content>
               </Expertise.Container>
             </Expertise.Box>
-            <Expertise.Box>
+            {/* <Expertise.Box>
               <Expertise.Content>
                 <Expertise.Column>
                   <Expertise.Project>
@@ -140,7 +140,7 @@ export default function ExpertiseDialog() {
                   </Expertise.ButtonContainer>
                 </Expertise.Column>
               </Expertise.Content>
-            </Expertise.Box>
+            </Expertise.Box> */}
           </Expertise>
         </>
       </Dialog>
