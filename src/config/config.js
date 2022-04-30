@@ -1,8 +1,8 @@
-import CV from "../assets/cv/CV.docx";
+import CV from "../assets/cv/CV.pdf";
 // import GroupAss from "../assets/GROUP6ASS.pdf";
 import Profile1 from "../assets/Profile1.jpeg";
 import Profile2 from "../assets/Profile2.jpeg";
-// import L from "../assets/";
+import L from "../assets/Letter.pdf";
 
 export const ProjectDetails = {
   projectName: "epo-e",
@@ -55,7 +55,7 @@ export const homePage = {
 
 export const aboutPage = {
   intro:
-    "I am a  krhula  peace themba (A FUTURE ENGINEER). I am a student at vaal university of technology studying.",
+    "I am a  kurhula  peace themba (A FUTURE ENGINEER). I am a student at vaal university of technology.",
   names: "KURHULA PEACE THEMBA",
   profile: {
     url: Profile2,
@@ -89,7 +89,7 @@ export const aboutPage = {
     },
     {
       title: "Download Letter",
-      link: "",
+      link: L,
     },
   ],
 };
@@ -116,18 +116,18 @@ export const hobbiesPage = {
   ],
   topImgs: [
     {
-      url: "https://images.unsplash.com/photo-1533647046292-0187d1d2c978?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      url: "",
     },
     {
-      url: "https://images.unsplash.com/photo-1567629733542-916a5af7e72a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      url: "",
     },
   ],
   bottomImgs: [
     {
-      url: "https://images.unsplash.com/photo-1619194999378-762462c38ab4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3027&q=80",
+      url: "",
     },
     {
-      url: "https://images.unsplash.com/photo-1600165642369-f609e6a2daa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2992&q=80",
+      url: "",
     },
   ],
 };
@@ -135,11 +135,6 @@ export const hobbiesPage = {
 export const projectsPage = {
   intro: "Most of us have free time, we just don’t spend it wisely.",
   projects: [
-    {
-      title: "A new project",
-      link: "",
-      module: "Appl com",
-    },
     {
       title: "A new project",
       link: "",

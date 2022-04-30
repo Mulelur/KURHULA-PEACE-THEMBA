@@ -40,7 +40,7 @@ export default function HobbiesDialog() {
         </ClearButton>
         <Intros.Intro1 />
         <Hobbies>
-          <Hobbies.Container>
+          {/* <Hobbies.Container>
             {hobbiesPage.topImgs.map((item, index) => {
               return (
                 <>
@@ -50,7 +50,7 @@ export default function HobbiesDialog() {
                 </>
               );
             })}
-          </Hobbies.Container>
+          </Hobbies.Container> */}
 
           <Hobbies.Container>
             <Hobbies.Content>
@@ -66,7 +66,7 @@ export default function HobbiesDialog() {
               </Hobbies.Row>
             </Hobbies.Content>
           </Hobbies.Container>
-          <Hobbies.Box>
+          {/* <Hobbies.Box>
             <Hobbies.Container>
               <Hobbies.PortfolioDetails>
                 {hobbiesPage.bottomImgs.map((item, index) => {
@@ -80,15 +80,15 @@ export default function HobbiesDialog() {
                 })}
               </Hobbies.PortfolioDetails>
             </Hobbies.Container>
-          </Hobbies.Box>
-          <Hobbies.Box>
+          </Hobbies.Box> */}
+          {/* <Hobbies.Box>
             <Hobbies.Col>
               <Hobbies.Heading2 color="#fff">
                 Your session has timed out. Please click here to resume your
                 session.
               </Hobbies.Heading2>
             </Hobbies.Col>
-          </Hobbies.Box>
+          </Hobbies.Box> */}
         </Hobbies>
 
         <FooterContainer />

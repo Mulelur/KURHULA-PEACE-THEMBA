@@ -19,6 +19,7 @@ export const CvButton = styled.a`
   transform: perspective(1px) translateZ(0px);
   position: relative;
   overflow: hidden;
+  text-decoration: none;
   border: none;
   white-space: nowrap;
   color: rgb(255, 255, 255);
